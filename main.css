@@ -7,7 +7,7 @@ body {
 .intro-container {
     background-color: blue;
     height: 350px;
-    width: 85%;
+    width: 95%;
     position: absolute;
     top: 36%;
     left: 50%;
@@ -15,12 +15,79 @@ body {
 }
 
 .header-container {
-    background-color: red;
-    width: 85%;
+    border: 2px red solid;
+    width: 95%;
     height: 100px;
     position: absolute;
     top: 8%;
     left: 50%;
     transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+
 }
 
+.left-header {
+    height: 100px;
+    width: 8%;
+    background-color: red;
+}
+
+.middle-header {
+    height: 100px;
+    width: 32%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.right-header {
+    height: 100px;
+    width: 8%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+  }
+
+  .hover-underline-animation.center::after {
+    transform-origin: bottom center;
+  }
+  
+  .hover-underline-animation.center:hover::after {
+    transform-origin: bottom center;
+  }
+
+  .hover-underline-animation:active {
+    opacity: 0.3;
+  }
