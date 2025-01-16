@@ -5,14 +5,35 @@ body {
 }
 
 .intro-container {
-    background-color: blue;
+    border: 2px solid blue;
     height: 350px;
     width: 95%;
     position: absolute;
     top: 36%;
     left: 50%;
     transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
 }
+
+.left-half-intro {
+    background-color: lightpink;
+    width: 50%;
+    height: auto;
+    padding-left: 60px;
+}
+
+.greeting,
+.about-name {
+    font-size: 30px;
+}
+
+.name {
+    font-size: 60px;
+}
+
+
+
 
 .header-container {
     border: 2px red solid;
@@ -29,7 +50,7 @@ body {
 
 .left-header {
     height: 100px;
-    width: 8%;
+    width: 10%;
     background-color: red;
 }
 
@@ -46,7 +67,7 @@ body {
 
 .right-header {
     height: 100px;
-    width: 8%;
+    width: 10%;
     background-color: red;
     display: flex;
     justify-content: space-between;
