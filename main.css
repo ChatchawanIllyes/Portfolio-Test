@@ -2,6 +2,7 @@
 
 body {
     font-family: Montserrat;
+    background-color: #181a1a;
 }
 
 .intro-container {
@@ -17,19 +18,56 @@ body {
 }
 
 .left-half-intro {
-    background-color: lightpink;
+
     width: 50%;
     height: auto;
-    padding-left: 60px;
+    padding-left: 300px;
 }
 
-.greeting,
-.about-name {
-    font-size: 30px;
+
+.greeting {
+    color: white;
+    font-size: 25px;
 }
+
 
 .name {
-    font-size: 60px;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+.description {
+    color: grey;
+    margin-top: 15px;
+    width: 250px;
+}
+
+.get-my-resume {
+    color: white;
+    margin-top: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.get-my-resume:active {
+    opacity: 0.3;
+}
+
+.right-half-intro {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: #252828;
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
 }
 
 
@@ -57,7 +95,7 @@ body {
 .middle-header {
     height: 100px;
     width: 32%;
-    background-color: green;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,6 +126,7 @@ body {
     display: inline-block;
     position: relative;
     cursor: pointer;
+    color: grey;
   }
   
   .hover-underline-animation::after {
@@ -96,9 +135,9 @@ body {
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
-    background-color: #000000;
+    background-color: #2a6cc9;
     transition: transform 0.25s ease-out;
   }
   
@@ -116,4 +155,8 @@ body {
 
   .hover-underline-animation:active {
     opacity: 0.3;
+  }
+
+  .hover-underline-animation:hover {
+    color: white;
   }
