@@ -90,7 +90,28 @@ body {
     height: 100px;
     width: 10%;
     background-color: red;
+    
 }
+
+.website-name {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: roboto;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.website-name1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: roboto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 
 .middle-header {
     height: 100px;
