@@ -3,10 +3,11 @@
 body {
     font-family: Montserrat;
     background-color: #181a1a;
+    height: 1500px;
 }
 
 .intro-container {
-    border: 2px solid blue;
+
     height: 350px;
     width: 95%;
     position: absolute;
@@ -32,7 +33,7 @@ body {
 
 
 .name {
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     font-weight: 600;
 }
@@ -87,20 +88,19 @@ body {
     border: 2px red solid;
     width: 95%;
     height: 100px;
-    position: absolute;
+    position: fixed;
     top: 8%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
     justify-content: space-between;
-
+    z-index: 1000;
 }
 
 .left-header {
     height: 100px;
     width: 10%;
     background-color: red;
-    
 }
 
 .website-name {
