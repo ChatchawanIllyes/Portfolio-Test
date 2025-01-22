@@ -11,6 +11,11 @@ body {
     
 }
 
+.home-page-scroll {
+    position: absolute;
+    top: 0;
+}
+
 .about-me-scroll {
    position: absolute;
    bottom: 20px;
@@ -151,6 +156,11 @@ body {
     align-items: center;
     font-size: 14px;
     font-weight: 400;
+}
+
+.letters {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
 }
 
 .right-header {
