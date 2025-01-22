@@ -79,7 +79,6 @@ body {
 }
 
 .right-half-intro {
-    background-color: red;
     width: 100%;
     height: 100%;
     position: relative;
@@ -108,7 +107,6 @@ body {
 
 
 .header-container {
-    border: 2px red solid;
     width: 95%;
     height: 100px;
     position: fixed;
@@ -123,7 +121,6 @@ body {
 .left-header {
     height: 100px;
     width: 10%;
-    background-color: red;
 }
 
 .website-name {
@@ -159,7 +156,6 @@ body {
 .right-header {
     height: 100px;
     width: 10%;
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
