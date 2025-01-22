@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
     font-family: Montserrat;
     background-color: #181a1a;
     height: 3500px;
-    
+}
+
+.title-home-page {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
 }
 
 .home-page-scroll {
@@ -26,7 +32,7 @@ body {
     position: absolute;
     bottom: 25px;
     color: rgb(150, 150, 150);
-    left: -35px;
+    left: -33px;
     width: 90px;
     transition: 0.3s;
 }
@@ -136,6 +142,7 @@ body {
     margin-left: 10px;
     margin-top: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .website-name1 {
@@ -227,4 +234,10 @@ body {
     position: relative;
     margin-top: 1000px;
   }
+
+.about-me-header-button {
+    position: absolute;
+    bottom: -220px;
+}
+
 
