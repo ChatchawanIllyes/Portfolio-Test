@@ -7,7 +7,7 @@ html {
 body {
     font-family: Montserrat;
     background-color: #181a1a;
-    height: 3500px;
+    height: 3000px;
 }
 
 .title-home-page {
@@ -143,6 +143,7 @@ body {
     margin-top: 20px;
     cursor: pointer;
     text-decoration: none;
+    position: absolute;
 }
 
 .website-name1 {
@@ -150,7 +151,6 @@ body {
     color: white;
     font-weight: 600;
     font-family: roboto;
-    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -258,6 +258,18 @@ body {
 .about-description {
     font-size: 15px;
     color: rgb(150, 150, 150);
+}
+
+.project-page {
+    height: 1000px;
+    width: 100%;
+    border: 2px solid yellow;
+}
+
+.contact-page {
+    height: 1000px;
+    width: 100%;
+    border: 2px solid blue;
 }
 
 
