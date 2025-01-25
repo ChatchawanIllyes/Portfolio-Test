@@ -8,6 +8,7 @@ body {
     font-family: Montserrat;
     background-color: #181a1a;
     height: 2700px;
+    overflow-y: hidden;
 }
 
 .title-home-page {
@@ -164,6 +165,10 @@ body {
 .letters {
     color: rgb(150, 150, 150);
     text-decoration: none;
+}
+
+.letters:hover {
+    color: white;
 }
 
 .right-header {
