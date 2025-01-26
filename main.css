@@ -8,7 +8,7 @@ body {
     font-family: Montserrat;
     background-color: #181a1a;
     height: 2700px;
-    overflow-y: hidden;
+    
 }
 
 .title-home-page {
@@ -242,7 +242,7 @@ body {
 }
 
 .about-me-left {
-    background-color: lightcoral;
+
     height: 100%;
     width: 50%;
 }
@@ -256,9 +256,40 @@ body {
     font-weight: 600;
 }
 
-.about-description {
-    font-size: 15px;
+.middle-line {
+    width: 2px;
+    height: 50%;
+    background-color: rgb(150, 150, 150);;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.left-line-branch {
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    background-color: rgb(150, 150, 150);
+    top: 20%;
+    left: 40%;
+}
+
+.education-paragraph {
+    width: 460px;
     color: rgb(150, 150, 150);
+    position: absolute;
+    top: 20%;
+    left: 25rem;
+}
+
+.para-title {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+span {
+    display: block;
 }
 
 .project-page {
@@ -310,4 +341,6 @@ body {
     bottom: 0;
     opacity: 0.2;
  }
+
+ 
 
