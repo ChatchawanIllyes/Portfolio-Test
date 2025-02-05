@@ -124,6 +124,9 @@ body {
     display: flex;
     justify-content: space-between;
     z-index: 1000;
+    min-width: 350px;
+    white-space: nowrap;
+    flex-wrap: wrap;
 }
 
 .left-header {
@@ -142,6 +145,7 @@ body {
     text-decoration: none;
     position: absolute;
 }
+
 
 .website-name1 {
     font-size: 25px;
