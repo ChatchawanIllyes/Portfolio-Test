@@ -249,7 +249,7 @@ body {
 .about-me-left {
 
     height: 100%;
-    width: 50%;
+    width: 35%;
 }
 
 .about-title {
@@ -277,14 +277,6 @@ body {
     background-color: rgb(150, 150, 150);
     top: 20%;
     left: 40%;
-}
-
-.education-paragraph {
-    width: 460px;
-    color: rgb(150, 150, 150);
-    position: absolute;
-    top: 20%;
-    left: 25rem;
 }
 
 .para-title {
@@ -346,6 +338,22 @@ span {
     bottom: 0;
     opacity: 0.2;
  }
+
+ .education-paragraph {
+    font-size: 15px;
+    color: grey;
+ }
+
+.experience-paragraph {
+    font-size: 15px;
+    color: grey;
+}
+
+.experience-job {
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+}
+
 
  
 
